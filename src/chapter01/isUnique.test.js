@@ -1,4 +1,4 @@
-const isUnique = require('./isUnique').isUnique;
+const isUnique = require('./isUnique');
 
 test('empty string returns false', () => {
   expect(isUnique.isStringUnique('')).toBeFalsy();
